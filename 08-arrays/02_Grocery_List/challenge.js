@@ -6,5 +6,5 @@ module.exports.addItem = function(item, array) {
 };
 
 module.exports.reverseSortedList = function(array) {
-  return array.sort(), array.reverse();
+  return array.sort().reverse();
 };
